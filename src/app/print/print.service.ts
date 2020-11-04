@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 
-import printPageHTML from "./print-page.html";
+import printPageHTML from "!!raw-loader!./print-page.html";
 
 @Injectable({
   providedIn: "root"

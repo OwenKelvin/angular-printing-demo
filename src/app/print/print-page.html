@@ -1,21 +1,19 @@
 <html>
+  <head>
+    <title>Print tab</title>
+    <link rel="stylesheet" href="/print-styles.css" />
+  </head>
 
-<head>
-	<title>Print tab</title>
-	<link rel="stylesheet" href="/print-styles.css" />
-</head>
-
-<body>
-	<section class="d-print-none">
-		<button onclick="window.print();">Print</button>
-		<button onclick="window.close();">Cancel</button>
-	</section>
-	{{printContents}}
-</body>
-<script>
-	(function () {
-            window.print();
-        })();
-</script>
-
+  <body>
+    <section class="d-print-none">
+      <button onclick="window.print();">Print</button>
+      <button onclick="window.close();">Cancel</button>
+    </section>
+    {{printContents}}
+  </body>
+  <script>
+    (function () {
+      window.print();
+    })();
+  </script>
 </html>
